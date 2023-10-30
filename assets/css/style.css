@@ -1,10 +1,30 @@
 header {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     background-color: #4aa476;
+}
+title {
+    font-weight: bolder;
+}
+
+button {
+    display: block;
+    box-shadow: 5px 5px 0px;
+    font-size: larger;
+    background-color: #4aa476;
+}
+
+button :hover {
+    margin: 0 0 12px;
+    color: aliceblue;
+    font-weight: bolder;
 }
 section {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     margin: 50px;
-    justify-content: space-around;
+    justify-content: flex-end;
+    flex-flow: row;
+    font-size: x-large;
 }
