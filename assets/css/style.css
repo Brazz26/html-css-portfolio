@@ -9,11 +9,17 @@ h1 {
     margin-left: 100px;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
 header {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-    background-color: #4aa476;
+    /*background-color: #4aa476;*/
 }
 nav {
     display: flex;
