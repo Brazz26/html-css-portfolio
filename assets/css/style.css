@@ -2,6 +2,7 @@ title {
     font-weight: bolder;
 }
 
+
 h1 {
     display: flex;
     font-size: 48px;
@@ -13,7 +14,8 @@ h2 {
     display: flex;
     justify-content: center;
     flex-flow: column;
-    margin: 30px;
+    margin: 28px;
+    font-style: arial  white;
     
 }
 
@@ -27,7 +29,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /*background-color: #4aa476;*/
+    background-color: #085a2f;
 }
 nav {
     display: flex;
@@ -40,7 +42,8 @@ button {
     box-shadow: 5px 5px 0px;
     margin-right: 10px ;
     font-size: larger;
-    background-color: #4aa476;
+    font: white;
+    background-color: #ffffff;
 }
 
 button :hover {background-color: #e1ebe1}
