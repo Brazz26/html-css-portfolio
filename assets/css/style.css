@@ -1,13 +1,13 @@
+title {
+    font-weight: bolder;
+}
+
 header {
     display: flex;
     flex-direction: row;
     width: 100%;
     background-color: #4aa476;
 }
-title {
-    font-weight: bolder;
-}
-
 button {
     display: block;
     box-shadow: 5px 5px 0px;
@@ -15,10 +15,10 @@ button {
     background-color: #4aa476;
 }
 
-button :hover {
-    margin: 0 0 12px;
-    color: aliceblue;
-    font-weight: bolder;
+button :hover {background-color: #e1ebe1}
+    
+button :pressed {
+    background-color: aqua;
 }
 section {
     display: flex;
