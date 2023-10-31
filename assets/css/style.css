@@ -2,6 +2,12 @@ title {
     font-weight: bolder;
 }
 
+h1 {
+    display: flex;
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
     display: flex;
     flex-direction: row;
