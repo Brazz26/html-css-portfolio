@@ -59,3 +59,13 @@ section {
     flex-flow: column;
     font-size: x-large;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+   font: 16px arial bold;
+    margin: 50px;
+
+}
+@media screen {;
+    
+}
