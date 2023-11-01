@@ -16,8 +16,10 @@ h2 {
     flex-flow: column;
     margin: 28px;
     font-style: arial  white;
+    image-resolution: auto;
     
 }
+
 
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
