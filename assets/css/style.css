@@ -135,6 +135,7 @@ footer{
       article {
         display: flex;
         flex-wrap: wrap;
+        flex-flow: column;
       }
       header {
         background-color: rgb(253, 136, 101);
