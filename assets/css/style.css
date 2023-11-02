@@ -92,9 +92,9 @@ content {
 }
 footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
    font: 48px arial bold;
-    margin: 50px;
+    margin: 12px;
 
 }
 @media screen  and (min-width:577px) {
