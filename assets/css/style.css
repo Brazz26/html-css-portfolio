@@ -95,6 +95,7 @@ footer{
     flex-direction: column;
    font: 48px arial bold;
     margin: 12px;
+    list-style: none;
 
 }
 @media screen  and (min-width:577px) {
