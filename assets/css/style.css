@@ -45,8 +45,10 @@ a {
 }
 
 p {
+    display: flex;
+    margin: auto;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 48px;
     text-align: center;
     text-wrap: balance;
     
@@ -54,9 +56,8 @@ p {
 
 nav {
     display: flex;
-    justify-content: flex-end;
-    order: 1;
-    margin-right: 15px;
+    justify-content: flex-start;
+    margin: -2px;
 }
 
 header {
