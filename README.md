@@ -10,4 +10,4 @@ Inside of this README the reader will find a live link, several pictures of live
 
 ![This is an avatar picture.](./assets/images/steve-urkel-tgif-universe.jpg)
 
-![Live website URL.](Brazz26.github.io/html-css-portfolio)
+![Live website URL.](https://brazz26.github.io/html-css-portfolio/)
