@@ -120,11 +120,23 @@ footer{
   }
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    width: 100%;
-  }
-  header {
-    background-color: orangered;
-  }
-}
+@media screen and (max-width: 568px) {
+    body {
+        display: flex;
+        flex-shrink: calc(50%-10px);
+        flex-wrap: wrap;
+        width: 50%;
+      }
+      
+      h2 {
+        font-size-adjust: initial;
+        background-color: rgb(253, 136, 101);
+      }
+      article {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      header {
+        background-color: rgb(253, 136, 101);
+      }
+    }
