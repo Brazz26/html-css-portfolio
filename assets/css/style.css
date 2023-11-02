@@ -98,8 +98,29 @@ footer{
     list-style: none;
 
 }
-@media screen  and (min-width:577px) {
-    article {
-        width: 50%;
-    }
+
+@media screen and (max-width: 992px) {
+  body {
+    display: flex;
+    flex-shrink: calc(50%-10px);
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  
+  h2 {
+    font-size-adjust: initial;
+    background-color: rgb(79, 249, 147);
+  }
+  header {
+    background-color: rgb(79, 249, 147);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+  header {
+    background-color: orangered;
+  }
 }
